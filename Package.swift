@@ -23,8 +23,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXFlexLayout",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXFlexLayout-1.0.0-beta+20230321182636.xcframework.zip",
-			checksum: "1b6a93dc13256fc75cf9840d508f2d808336b1d1f98b0df9c5c38135555cfe9a"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXFlexLayout-1.0.0-beta+20230323104412.xcframework.zip",
+			checksum: "9e77acf97a63d2663ee533b2cce484488a9db5e1c243e13bc7d31daf9afaa18f"
 		)
 	]
 )
