@@ -10,8 +10,8 @@ let package = Package(
 			targets: ["GXFlexLayoutWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.2.0-rc.12"),
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXObjectsModel.git", exact: "3.2.0-rc.12")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.2.0-rc.13"),
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXObjectsModel.git", exact: "3.2.0-rc.13")
 	],
 	targets: [
 		.target(name: "GXFlexLayoutWrapper",
@@ -23,8 +23,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXFlexLayout",
-			url: "https://pkgs.genexus.dev/iOS/preview/GXFlexLayout-3.2.0-rc.12.xcframework.zip",
-			checksum: "f2fc4199d5305ef0747e348178205b0236a846b2404b71d0b9d142a4164f4af4"
+			url: "https://pkgs.genexus.dev/iOS/preview/GXFlexLayout-3.2.0-rc.13.xcframework.zip",
+			checksum: "9ee048ec3e37dcb8ad84884522aabfcddb0aa6b4ca00f0baaabd82509be57da8"
 		)
 	]
 )
