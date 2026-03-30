@@ -1,17 +1,17 @@
-// swift-tools-version: 5.7
+// swift-tools-version: 5.9
 import PackageDescription
 
 let package = Package(
 	name: "GXFlexLayout",
-	platforms: [.iOS("12.0")],
+	platforms: [.iOS("15.0")],
 	products: [
 		.library(
 			name: "GXFlexLayout",
 			targets: ["GXFlexLayoutWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.1.0"),
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXObjectsModel.git", exact: "1.1.0")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "4.2.0-rc.0"),
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXObjectsModel.git", exact: "4.2.0-rc.0")
 	],
 	targets: [
 		.target(name: "GXFlexLayoutWrapper",
@@ -23,8 +23,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXFlexLayout",
-			url: "https://pkgs.genexus.dev/iOS/releases/GXFlexLayout-1.1.0.xcframework.zip",
-			checksum: "1ec4706404b576838c30a55958773914f306be25883fd1dd391ac90d6f7da85d"
+			url: "https://pkgs.genexus.dev/iOS/preview/GXFlexLayout-4.2.0-rc.0.xcframework.zip",
+			checksum: "422f04ad88371c5ed139119d8f73e6e8b1e1e35933b9b73424a2bd7f27c5babd"
 		)
 	]
 )
